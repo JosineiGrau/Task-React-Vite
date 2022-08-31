@@ -8,7 +8,7 @@ const TaskList = () => {
 
     if(tasks.length === 0){
         return(
-          <h1 className="text-center text-white text-4xl font-bold">No hay tareas</h1>
+          <h1 className="text-center text-white text-4xl font-bold">No hay tareas por realizar</h1>
         )
     }
 
