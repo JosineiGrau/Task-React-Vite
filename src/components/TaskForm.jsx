@@ -25,7 +25,7 @@ const TaskForm = () => {
             <form onSubmit={handleSubmit} className=" bg-slate-800 p-10 mb-4">
                 <input type="text" 
                 value={title}
-                placeholder="Escribe el titulo" 
+                placeholder="Escribe el titulo de tu tarea" 
                 onChange={(e) => setTitle(e.target.value)}
                 className="outline-none bg-transparent text-white border border-slate-500 px-3 py-2 mb-3 w-auto"
                 />
